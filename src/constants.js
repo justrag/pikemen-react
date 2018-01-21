@@ -1,0 +1,2 @@
+export const INITIALIZE_IDENTITY = 'INITIALIZE_IDENTITY';
+export const JOIN_GAME = 'JOIN_GAME';
