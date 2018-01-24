@@ -46,6 +46,7 @@ socket.on('state', state => {
   console.log('State: ', state);
 });
 */
+socket.on('action', store.dispatch);
 
 const App = () =>
   <Provider store={store}>
